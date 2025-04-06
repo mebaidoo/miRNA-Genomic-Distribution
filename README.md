@@ -19,6 +19,9 @@ This project analyzes the distribution of microRNAs (miRNAs) across chromosomes 
 - Visualize the relationship between chromosome size and miRNA count.
 - Conduct a literature review to identify potential reasons for results.
 
+## Initial Findings
+- Human chromosome 19 has a statistically significant high number of miRNAs despite being small.
+
 ## Data
 
 The miRNA data for each organism was collected from miRBase, a database for miRNA. This data was prre-processed to obtain unique chromosomes in the data and the count of miRNAs for each chromosome. Data on chromosome size for each chromosome in each organism was collected from NCBI. 
@@ -98,9 +101,6 @@ Data is stored in an Excel file with each organism on a separate sheet.
 **Human z-score plot: Outliers**
 
 ![Z-score plot](images/human_zscore_plot.png)
-
-## Initial Findings
-- Human chromosome 19 has a statistically significant high number of miRNAs despite being small.
 
 ## TODO
 - Automate data download/scraping
