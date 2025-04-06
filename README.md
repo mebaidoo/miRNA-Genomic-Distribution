@@ -90,7 +90,7 @@ Data is stored in an Excel file with each organism on a separate sheet.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/miRNA-Genomic-Distribution.git
+   git clone https://github.com/mebaidoo/miRNA-Genomic-Distribution.git
    cd miRNA-Genomic-Distribution
 2. (Optional) Create and activate environment.
 3. Run the analysis via notebook.
