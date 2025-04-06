@@ -93,7 +93,7 @@ Data is stored in an Excel file with each organism on a separate sheet.
    git clone https://github.com/mebaidoo/miRNA-Genomic-Distribution.git
    cd miRNA-Genomic-Distribution
 2. (Optional) Create and activate environment.
-3. Run the analysis via notebook.
+3. Run the analysis using the `mirna_analysis.ipynb` notebook.
 
 ## Sample Plots
 
