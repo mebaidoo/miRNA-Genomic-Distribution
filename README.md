@@ -1,6 +1,10 @@
 # miRNA Chromosome Distribution Analysis
 
-This project analyzes the distribution of microRNAs (miRNAs) across chromosomes in multiple organisms. The goal is to investigate whether miRNA distribution is proportional to chromosome size, or if certain chromosomes are enriched with miRNAs, and also to identify any pattern between organisms.
+This project analyzes the distribution of **microRNAs** (miRNAs) across chromosomes in multiple organisms.
+
+## Overview
+
+miRNAs are small, non-coding RNA molecules that play a crucial role in regulating gene expression at the post-transcriptional level. By binding to target messenger RNAs (mRNAs), they can **suppress translation** or lead to mRNA degradation, thereby influencing numerous biological processes. Studying the distribution of miRNAs across chromosomes can offer insights into genomic organization, evolutionary patterns, and regions that might play key roles in gene regulation. This project explores whether miRNA distribution is random or correlated with chromosome size and differs between organisms.
 
 ## Organisms Analyzed
 
@@ -20,6 +24,7 @@ This project analyzes the distribution of microRNAs (miRNAs) across chromosomes 
 - Conduct a literature review to identify potential reasons for results.
 
 ## Initial Findings
+
 - Human chromosome 19 has a statistically significant high number of miRNAs despite being small.
 
 ## Data
@@ -87,13 +92,11 @@ Data is stored in an Excel file with each organism on a separate sheet.
    ```bash
    git clone https://github.com/your-username/miRNA-Genomic-Distribution.git
    cd miRNA-Genomic-Distribution
-2. (Optional) Create and activate conda environment:
-   ```bash
-   conda env create -f environment.yml
-   conda activate mirna-env
+2. (Optional) Create and activate environment.
 3. Run the analysis via notebook.
 
 ## Sample Plots
+
 **Human Chromosome Length vs. miRNA Count**
 
 ![Chromosome vs. miRNA plot](images/human_comparison.png)
@@ -102,6 +105,6 @@ Data is stored in an Excel file with each organism on a separate sheet.
 
 ![Z-score plot](images/human_zscore_plot.png)
 
-## TODO
+## Next Steps
 - Automate data download/scraping
 - Add more species for comparative analysis
